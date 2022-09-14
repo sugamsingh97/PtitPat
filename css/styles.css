@@ -401,3 +401,9 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/*** Facts  ***/
+.facts {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(/images/about4.jpg) center center no-repeat;
+    background-size: cover;
+}
