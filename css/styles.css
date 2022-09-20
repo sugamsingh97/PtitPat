@@ -14,6 +14,7 @@
 }
 
 
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -412,7 +413,7 @@
 .membership-item {
     padding: 45px 30px;
     color: #FFFFFF;
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, .6);
 }
 
 .membership-item img {
@@ -455,4 +456,22 @@
 .animal-item:hover .animal-text {
     opacity: 1;
     padding-bottom: 20px !important;
+}
+
+.hero-button {
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-button a {
+    height: 60px;
+}
+
+
+@media (max-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    /**hero button**/
+    .hero-button a {
+        height: 40px;
+    }
 }
