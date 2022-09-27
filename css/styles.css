@@ -425,6 +425,9 @@
     object-fit: cover;
     z-index: -1;
 }
+.membership-item p {
+    min-height: 5rem;
+}
 
 .membership-item .display-1 {
     color: transparent;
@@ -473,5 +476,14 @@
     /**hero button**/
     .hero-button a {
         height: 40px;
+    }
+    .valeur {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:767px) {
+    .animal-item img {
+        width:29rem;
     }
 }
